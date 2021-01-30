@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Entrada dos valores informados pelo cliente
+        var valorJantar = Number(prompt("Informe o valor do jantar: "));
+        const TAXA = 10;
+        //Soma dos valores
+        var porcenGarcon = (valorJantar * TAXA) / 100;
+        var soma = valorJantar + porcenGarcon;
+        //Retornando o valor a ser pago pelo cliente incluindo taxa do garçon
+        alert(`O valor da taxa do garçon é de R$${porcenGarcon.toFixed(2)} e o valor total do jantar é R$${soma.toFixed(2)}`);
+    </script>
+</body>
+</html>

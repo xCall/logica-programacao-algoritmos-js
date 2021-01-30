@@ -50,7 +50,7 @@ O método `Window.alert()` mostra uma caixa de diálogo de aviso com o conteúdo
 
 ```alert(`mensagem`);```
 
-* **mensagem** é uma strig opcional com o texto que vocẽ quer exibir na caixa de diálogo, ou, ainda, um objeto a ser convertido em string e exibido.
+* mensagem é uma strig opcional com o texto que vocẽ quer exibir na caixa de diálogo, ou, ainda, um objeto a ser convertido em string e exibido.
 
 --------
 
@@ -62,11 +62,24 @@ O método `Window.prompt()` exibe uma caixa de dialógo com uma mensagem opciona
 
 * é possível mostrar uma mensagem ou fazer uma pergunta ao usuário, sendo retornado algum valor que vai ser atribuido a variável *resultado* e pode ser usado na sua lógica, podendo ser esse valor passado também como nulo.
 
+-------
+
+O objeto JavaScript `Number()` é um objeto encapsulado que permite você trabalhar com valores numéricos. Um objeto *Number* é criado utilizando o construtor `Number()`.
+
+**Number()**
+
+```new Number(value); var numero = Number(prompt("infome um numero: "));```
 
 ### Desafios
-1. Elaborar um programa que leia um número. Calcule e informe o dobro desse número:
-    ![Link da resolução do desafio](./Introducao-cap1/desafios/des1_1.html)
+#### Capítulo 1
+1. *Elaborar um programa que leia um número. Calcule e informe o dobro desse número:*
+    [Link da resolução do desafio](./Introducao-cap1/desafios/des1_1.html)
 
+2. *Elaborar um programa que leia dois números. Calcule e informe a soma desses números:*
+    [Link da resolução do desafio](./Introducao-cap1/desafios/des1_2.html)
+
+2. *Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.*
+    [Link da resolução do desafio](./Introducao-cap1/desafios/des1_3.html)
 
 
 
