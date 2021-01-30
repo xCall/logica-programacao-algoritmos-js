@@ -70,6 +70,18 @@ O objeto JavaScript `Number()` é um objeto encapsulado que permite você trabal
 
 ```new Number(value); var numero = Number(prompt("infome um numero: "));```
 
+* Você passa como parâmetro o que vai ser convertido
+
+-------
+
+O `toFixed()` é um metodo que formata o número usando a notação de ponto fixo.
+
+**toFixed()**
+
+```alert(`o seu salario é de: R$${salario.toFixed(2)}`); //Retorna => "o seu salario é de R$***,00"```
+
+* É possível passar um parâmetro que informa a quantidade de casas decimais depois do ponto.
+
 ### Desafios
 #### Capítulo 1
 1. *Elaborar um programa que leia um número. Calcule e informe o dobro desse número:*
@@ -78,7 +90,7 @@ O objeto JavaScript `Number()` é um objeto encapsulado que permite você trabal
 2. *Elaborar um programa que leia dois números. Calcule e informe a soma desses números:*
     [Link da resolução do desafio](./Introducao-cap1/desafios/des1_2.html)
 
-2. *Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.*
+3. *Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.*
     [Link da resolução do desafio](./Introducao-cap1/desafios/des1_3.html)
 
 
