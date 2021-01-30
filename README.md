@@ -8,6 +8,7 @@
     * [Variáveis](#Variável)
     * [Constantes](#Const)
 * [Comandos](#Comandos)    
+* [Desafios](#Desafios)
 <!--te-->
 
 ### Introdução
@@ -62,6 +63,9 @@ O método `Window.prompt()` exibe uma caixa de dialógo com uma mensagem opciona
 * é possível mostrar uma mensagem ou fazer uma pergunta ao usuário, sendo retornado algum valor que vai ser atribuido a variável *resultado* e pode ser usado na sua lógica, podendo ser esse valor passado também como nulo.
 
 
+### Desafios
+1. Elaborar um programa que leia um número. Calcule e informe o dobro desse número:
+    ![Link da resolução do desafio](./Introducao-cap1/desafios/des1_1.html)
 
 
 
