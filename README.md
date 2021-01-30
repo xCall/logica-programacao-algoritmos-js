@@ -5,7 +5,7 @@
 -----
 <!--ts-->
 * [Intrução](#introducao)
-    * [Variáveis](#Variavel)
+    * [Variáveis](#Variável)
     * [Constantes](#Const)
 <!--te-->
 
