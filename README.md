@@ -4,9 +4,10 @@
 
 -----
 <!--ts-->
-* [Intrução](#introducao)
+* [Intrução](#Introdução)
     * [Variáveis](#Variável)
     * [Constantes](#Const)
+* [Comandos](#Comandos)    
 <!--te-->
 
 ### Introdução
@@ -37,3 +38,57 @@ Para declarar uma constante em um programa, utilize a palavra reservada **const*
 ###### Declarando uma constante em JavaScript:
 
 ```const NOME = carlos; const IDADE = 18;```
+
+
+
+### Comandos
+
+O método `Window.alert()` mostra uma caixa de diálogo de aviso com o conteúdo opcionalmente especificado e um botão `OK` 
+
+**alert()**:
+
+```alert(`mensagem`);```
+
+* **mensagem** é uma strig opcional com o texto que vocẽ quer exibir na caixa de diálogo, ou, ainda, um objeto a ser convertido em string e exibido.
+
+--------
+
+O método `Window.prompt()` exibe uma caixa de dialógo com uma mensagem opcional solicitando ao usuário a entrada de algum texto.
+
+**prompt()**:
+
+```var resultado = prompt("Insira o resultado");```
+
+* é possível mostrar uma mensagem ou fazer uma pergunta ao usuário, sendo retornado algum valor que vai ser atribuido a variável *resultado* e pode ser usado na sua lógica, podendo ser esse valor passado também como nulo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
