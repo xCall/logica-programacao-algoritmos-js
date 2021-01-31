@@ -31,6 +31,9 @@ As variáveis declaradas em um programa devem possuir um nome, seguindo algumas 
 
 Variáveis escritas com letras maiúsculas são diferentes de variáveis escritas com letras minúsculas. O uso do caractere "_" é válido, porém dê preferência para declarar variáveis com o nome de letras minúsculas e o uso de uma letra maiúscula para destacar palavras compostas (padrão denominado *camelcase*). São exemplos de nomes válidos para variáveis: **cidade, nota1, primeiroCliente, novoSalario, precoFinal, dataVenda**.
 Em JavaScript, a atribuição de valor para uma variável é feita com o sinal "=". É possível declarar uma variável e atribuir-lhe um valor com o uso da palavra reservada **var** e do sinal de atribuição.
+
+Outro detalhe importante sobre as variáveis é que elas têm um "escopo" de abrangência (de validade no programa). As variáveis declaradas dentro de uma função são denominadas variáveis locais e, como o nome sugere, só têm validade nesse local (nessa função). Já as variáveis declaradas fora das funções são consideradas variávies globais, e valem para todo o programa. Sempre que possível, dê preferência por utilizar variáveis locais, pois o espaço alocado por uma variável local é liberado após a conclusão da função. Além disso, diversos outros problemas podem ser evitados, como a redefinição na função do valor de uma variável global já existente.
+Um cuidado com relação à declaração das variáveis JavaScript: não se esqueça de utilizar a palavra *var* antes do nome da variável. Declarar variáveis sem a palavra *var* faz com que ela seja entendida como uma variável global, mesmo se declarada dentro de uma função. As boas práticas de programação recomendam o uso de *var* antes do nome da variável, e devemos segui essa recomendação.
 ###### Declarando uma variável em JavaScript:
 
 ```var nome; var idade = 18; var soma = 10 + 10;```
@@ -49,9 +52,7 @@ Para declarar uma constante em um programa, utilize a palavra reservada **const*
 
 ### Comandos
 
-O método `Window.alert()` mostra uma caixa de diálogo de aviso com o conteúdo opcionalmente especificado e um botão `OK` 
-
-**alert()**:
+O método `Window.alert()` mostra uma caixa de diálogo de aviso com o conteúdo opcionalmente especificado e um botão `OK` referencia
 
 ```alert(`mensagem`);```
 
@@ -99,6 +100,22 @@ Para referenciar um elemento HTML identificado no documento pelo id, deve-se uti
 Ou, então, utilizar um único comando, acessando diretamente a propriedade que queremos obter ou alterar, como asseguir:
 
 ```var nome = document.getElementById("nome").value;```
+
+-------
+
+A propriedade `****.value;` obtém ou altera o conteúdo de um campo de formulário HTML. 
+A propriedade `****.textContent` serve para alterar ou obter o conteúdo de elementos de texto do documento identificados no código HTML. É possível, portanto alterar o texto de qualquer parágrafo ou texto de cabeçalho em uma página web utilizando essa propriedade.
+A propriedade `****.innerHTML`, semelhante a `textContent` quanto aos elementos em que atua, porém renderiza os códigos HTML existentes no seu conteúdo.
+
+----
+
+|`Math.abs(num)`|Retorna o valor absoluto de um número, ou seja, se o valor for negativo, ele será convertido para positivo. Se positivo, o valor permanece o mesmo. *Exemplo*: `Math.abs(-3)` => 3|
+|`Math.ceil(num)`|Arredonda o valor para cima. Dessa forma, se o valor possuir decimais, retorna o próximo número inteiro do valor analisado. *Exemplo*: `Match.ceil(4.2)` => 5|
+|`Math.floor(num)`|Arredonda o valor para baixo, retornando a parte inteira do número. *Exemplo*: `Math.floor(7.9)` => 7|
+|`Math.pow(base, exp)`|Retorna a base elevada ao expoente. *Exemplo*: `Math.pow(3,2)` => 9|
+|`Math.random()`|Retorna um número aleatório entre 0 e 1, com várias casas decimais. O número aleatório possível inicia em 0 e vai até um valor inferior a 1. *Exemplo*: `Math.random()` => 0.16498685|
+|`Math.round(num)`|Arredonda o valor para o inteiro mais próximo. A partir de .5 na parte fracionária, o valor é arredondado para cima. Anterior a .5, é arredondado para baixo. *Exemplo*: `Math.round(2.7)` => 3|
+|`Math.sqrt(num)`|Retorna a rais quadrada do número (square root). *Exemplo*: `Math.sqrt(16)` => 4|
 
 #### Desafios
 
@@ -153,8 +170,11 @@ As tag em HTML geralmente são declaradas em pares. Há ```<html></html>, <head>
 Existem também algumas tags que não necessitam de fechamento, que se abrem e se fecham nelas mesmas como por exmplo a tag `<br/>`, pois ela não tem sentido semantico e não necessita de ter uma tag para fechamento.
 
 > **Objeto** - representa uma instância de uma classe.
+----
 > **Método** - representa uma instrução ou um conjunto de instruções que executam uma tarefa.
+----
 > **Propriedade** - representa uma característica (atributo) de um objeto.
+----
 
 
 
