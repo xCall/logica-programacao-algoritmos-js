@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Entrada do valor do produto
+        var preco = Number(prompt('Informe o valor a ser pago R$'));
+        //Realiza o calculo a vista e a prazo
+        var avista = (preco * 10) / 100;
+        var prazo = preco / 3;
+        //Retorna para o cliente as opçoes de pagamento e o desconto
+        alert(
+            `
+                À vista R$${avista}
+                Ou 3x de R$${prazo}
+            `
+        )
+    </script>
+</body>
+
+</html>

@@ -104,9 +104,11 @@ a. *Elaborar um programa que leia um número. Calcule e informe os seus vizinhos
     [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_a.html)
 
 
-a. *Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.*
+b. *Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.*
     [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_b.html)
 
+c. *Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de deconto e o valor em 3x.*
+    [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_c.html)
 
 
 
