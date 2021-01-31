@@ -93,6 +93,8 @@ O `toFixed()` é um metodo que formata o número usando a notação de ponto fix
 3. *Elaborar um programa que leia o valor de um jantar. Calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.*
     [Link da resolução do desafio](./Introducao-cap1/desafios/des1_3.html)
 
+4. *Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.*
+    [Link da resolução do desafio](./Introducao-cap1/desafios/des1_4.html)
 
 
 
