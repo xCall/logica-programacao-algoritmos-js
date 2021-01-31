@@ -110,6 +110,9 @@ b. *Elaborar um programa para uma pizzaria, o qual leia o valor total de uma con
 c. *Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de deconto e o valor em 3x.*
     [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_c.html)
 
+D. *Elaborar um programa que leia 2 notas de um aluno em uma disciplina. Calcule e informe a média das notas.*
+    [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_d.html)
+
 
 
 
