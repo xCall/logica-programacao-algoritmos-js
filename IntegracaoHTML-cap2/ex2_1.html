@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type='button'] {
+            color: black;
+            background-color: #eee;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        input[type='button']:hover {
+            background-color: gray;
+            transition: 0.5s;
+            color: white;
+        }
+
+        #nome {
+            padding: 5px;
+            margin: 0 8px 0 0;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        #nome:focus {
+            box-shadow: 0 0 0 0;
+            border-top: 0 none;
+            border-left: 0 none;
+            border-right: 0 none;
+            outline: 0;
+        }
+
+        div#content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content">
+        <h1>Programa Olá Você!</h1>
+        <div>
+            <p>Nome:
+                <input type="text" id="nome">
+                <input type="button" value="Mostrar">
+            </p>
+            <p id="resposta"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
