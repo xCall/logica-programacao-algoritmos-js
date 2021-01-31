@@ -12,13 +12,15 @@
         //Entrada do valor do produto
         var preco = Number(prompt('Informe o valor a ser pago R$'));
         //Realiza o calculo a vista e a prazo
-        var avista = (preco * 10) / 100;
+        const TAXA = 10;
+        var avista = ((preco * TAXA) / 100);
+        var somaAvista = preco - avista
         var prazo = preco / 3;
         //Retorna para o cliente as opçoes de pagamento e o desconto
         alert(
             `
-                À vista R$${avista}
-                Ou 3x de R$${prazo}
+                À vista R$${somaAvista.toFixed(2)}
+                Ou 3x de R$${prazo.toFixed(2)}
             `
         )
     </script>
