@@ -85,7 +85,7 @@ O `toFixed()` é um metodo que formata o número usando a notação de ponto fix
 * É possível passar um parâmetro que informa a quantidade de casas decimais depois do ponto.
 
 ### Desafios
-#### Capítulo 1
+
 1. *Elaborar um programa que leia um número. Calcule e informe o dobro desse número:*
     [Link da resolução do desafio](./Introducao-cap1/desafios/des1_1.html)
 
@@ -99,10 +99,13 @@ O `toFixed()` é um metodo que formata o número usando a notação de ponto fix
     [Link da resolução do desafio](./Introducao-cap1/desafios/des1_4.html)
 
 ### Desafios-Finais
+
 a. *Elaborar um programa que leia um número. Calcule e informe os seus vizinhos, ou seja, o número anterior e posterior.*
     [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_a.html)
 
 
+a. *Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.*
+    [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_b.html)
 
 
 
