@@ -108,7 +108,8 @@ A propriedade `****.textContent` serve para alterar ou obter o conteúdo de elem
 A propriedade `****.innerHTML`, semelhante a `textContent` quanto aos elementos em que atua, porém renderiza os códigos HTML existentes no seu conteúdo.
 
 ----
-
+|Método|Explicação|
+|------|----------|
 |`Math.abs(num)`|Retorna o valor absoluto de um número, ou seja, se o valor for negativo, ele será convertido para positivo. Se positivo, o valor permanece o mesmo. *Exemplo*: `Math.abs(-3)` => 3|
 |`Math.ceil(num)`|Arredonda o valor para cima. Dessa forma, se o valor possuir decimais, retorna o próximo número inteiro do valor analisado. *Exemplo*: `Match.ceil(4.2)` => 5|
 |`Math.floor(num)`|Arredonda o valor para baixo, retornando a parte inteira do número. *Exemplo*: `Math.floor(7.9)` => 7|
