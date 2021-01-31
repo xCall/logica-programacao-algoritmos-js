@@ -87,6 +87,19 @@ O `toFixed()` é um metodo que formata o número usando a notação de ponto fix
 
 * É possível passar um parâmetro que informa a quantidade de casas decimais depois do ponto.
 
+-------
+
+Para referenciar um elemento HTML identificado no documento pelo id, deve-se utilizar o método `getElementById()`. Esse método permite referenciar qualquer elemento da página, como um campo de formulário, um parágrafo, um botão, uma imagem, entre outros. Para que um elemento HTML seja referenciado, ele precisa conter um atributo id.
+
+**getElementById()**
+
+```var inputNome = document.getElementById("nome");```
+```var nome = inputNome.value;```
+
+Ou, então, utilizar um único comando, acessando diretamente a propriedade que queremos obter ou alterar, como asseguir:
+
+```var nome = document.getElementById("nome").value;```
+
 #### Desafios
 
 1. *Elaborar um programa que leia um número. Calcule e informe o dobro desse número:*
@@ -139,6 +152,9 @@ O capitulo estudado no texto foi dedicado a destacar o estudo básico de alguns 
 As tag em HTML geralmente são declaradas em pares. Há ```<html></html>, <head></head>, <body></body>```. As tags `<head>` e `<body>` são responsaveis por definirem as seções principais de uma página. Na seção de cabeçalho, foram são inseridas algumas metatags e o titulo de documento que você pode alterar conforme a necessidade. Já no corpo da página fica as tags de marcação responsáveis por criar o "esqueleto" da página, que tem como principal prioridade dar a forma a página que vai ser construída.
 Existem também algumas tags que não necessitam de fechamento, que se abrem e se fecham nelas mesmas como por exmplo a tag `<br/>`, pois ela não tem sentido semantico e não necessita de ter uma tag para fechamento.
 
+> **Objeto** - representa uma instância de uma classe.
+> **Método** - representa uma instrução ou um conjunto de instruções que executam uma tarefa.
+> **Propriedade** - representa uma característica (atributo) de um objeto.
 
 
 
