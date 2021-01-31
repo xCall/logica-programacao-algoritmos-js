@@ -9,6 +9,7 @@
     * [Constantes](#Const)
     * [Desafios](#Desafios)
     * [Desafios-Finais](#Desafios-Finais)
+    * [Considerações Finais](#Considerações-Finais)
 * [Comandos](#Comandos)    
 
 <!--te-->
@@ -114,9 +115,21 @@ D. *Elaborar um programa que leia 2 notas de um aluno em uma disciplina. Calcule
     [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_d.html)
 
 
+==============================
 
+### Considerações-Finais
 
+**Contém partes escritas pelo autor retirados do livro**
 
+O capitulo estudado no texto foi dedicado a destacar o estudo básico de alguns pontos essenciais da lógica, focado no aprendizado de programação com JavaScript, os quais são:
+    
+* Para se tornar um programador, deve ser persistente e cuidadoso com os detalhes da codificação. Sua organização lógica do programa pode estar correta, mas, se um pequeno erro de grafia (sintaxe) existir no código, ele não é executado.
+* Lógica de programação é algo que se aprende com treinamento. Ao criar um algoritmo, vamos "ensinar" o computador a realizar uma tarefa. Com a compreensão e a prática dos exercícios, passamos a assimilar a forma como as estruturas de um programa devem estar organizadas. Usamos a lógica para montar corretamente essas estrututas.
+* Uma boa regra a seguir para resolver os primeiros exercícios de programação é que todo o programa tem três etapas: entrada, processamento e saída. Ou seja, ele recebe alguns dados, executa algumas operações sobre esses dados e apresenta a resposta.
+* JavaScpript é uma linguagem de destaque no cenário atual. É muito valorizada por empresas de desenvolvimento Web pela capacidade de adicionar inúmeros recursos nas páginas, visando, por exemplo, à interação com os usuários e à criação de layouts profissionais.
+* Existem diversas opções de editores de código JavaScript. Alguns estão disponíveis e são úteis para realizarmos pequenos testes. Para criar progamas maiores, instale um editor profissional que contém diversos recursos visando auxiliar o trabalho do progamador. Há ótimas alternativas de editores gratuitos na internet. O visual Studio Code é um deles.
+* A linguagem JavaScript dispõe dos comandos (métodos) `prompt()` e `alert()` para realizar pequenas interações com os usuários. Eles nos permitem praticar as etapas de entrada e saída de dados de um algoritmo.
+* Variável é um conceito fundamental para a criação de programas. São as variáveis que permitem guardar os dados de entrada, armazenar um cálculo ou outro processamento e, a partir delas, exibir dados de saída personalizados para cada interação de um usuário do sistema.
 
 
 
