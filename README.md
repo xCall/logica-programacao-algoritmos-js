@@ -7,8 +7,10 @@
 * [Intrução](#Introdução)
     * [Variáveis](#Variável)
     * [Constantes](#Const)
+    * [Desafios](#Desafios)
+    * [Desafios-Finais](#Desafios-Finais)
 * [Comandos](#Comandos)    
-* [Desafios](#Desafios)
+
 <!--te-->
 
 ### Introdução
@@ -96,7 +98,9 @@ O `toFixed()` é um metodo que formata o número usando a notação de ponto fix
 4. *Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.*
     [Link da resolução do desafio](./Introducao-cap1/desafios/des1_4.html)
 
-
+### Desafios-Finais
+a. *Elaborar um programa que leia um número. Calcule e informe os seus vizinhos, ou seja, o número anterior e posterior.*
+    [Link da resolução do desafio](./Introducao-cap1/exercicio-final/resp1_a.html)
 
 
 
