@@ -12,6 +12,7 @@
     * [Considerações Finais](#Considerações_Finais)
 * [Integração com HTML](#Integração_com_HTML)
     * [Estrutura básica de um documento HTML](#Estrutura_básica_de_um_documento_HTML)
+    * [Exercícios](#Exercícios)
 * [Comandos](#Comandos)    
 
 <!--te-->
@@ -178,9 +179,10 @@ Existem também algumas tags que não necessitam de fechamento, que se abrem e s
 ----
 
 
+### Exercícios
 
-
-
+a. *Elaborar um programa para uma Vídeo Locadora, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.*
+    [Link da resolução do desafio](./IntegracaoHTML-cap2/ex2_2.html)
 
 
 

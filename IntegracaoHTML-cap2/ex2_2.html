@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .space {
+            margin-top: 9px;
+        }
+
+        input[type='submit'] {
+            color: black;
+            margin-top: 20px;
+            padding: 10px 10px 7px 10px;
+            border: 0 none;
+
+        }
+
+        input[type='submit']:hover {
+            transition: 0.3s;
+            background-color: #dcdcdc;
+            border: 0 none;
+        }
+        .click:focus {
+            border: 0 none;
+            box-shadow: none;
+            outline: 0;
+        }
+        input[type='number']::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        .insert {
+            border: none;
+            border-bottom: 1px solid black !important;
+        }
+
+        .insert:focus {
+            border: 0 none;
+            border-bottom: 1px solid black !important;
+            background-color: #dcdcdc;
+            box-shadow: 0 0 0 0;
+            outline: 0;
+            transition: 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <h1>Vídeo Locadora JS</h1>
+        <div class="form">
+            <label class="space" for="title">Título do Filme:</label>
+            <input class="space insert" type="text" name="title" id="filmeTitle">
+            <label class="space" for="clock">Duração (min):</label>
+            <input class="space insert" type="number" name="clock" id="time">
+            <input class="space click" type="submit" id="convert" value="Converter em Horas e Minutos">
+
+            <p id="pTitle"></p>
+            <p id="pTime"></p>
+        </div>
+    </div>
+
+    <script src="./js/ex2_2.js"></script>
+</body>
+
+</html>
