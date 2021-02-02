@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div.content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+        }
+
+        label,
+        input, p {
+            margin-top: 10px;
+        }
+
+        input
+    </style>
 </head>
+
 <body>
     <div class="content">
         <h1>Revenda de Veículos JS</h1>
@@ -12,7 +30,7 @@
         <input type="text" name="veiculoName" id="inVeiculo">
         <label for="veiculoPreco">Preço R$</label>
         <input type="text" name="veiculoName" id="inPreco">
-        <input type="button" name="" id="btVerPromo">
+        <input type="button" value="Ver Promoção" id="btVerPromo">
 
         <p id="outVeiculo"></p>
         <p id="outEntrada"></p>
@@ -21,4 +39,5 @@
 
     </div>
 </body>
+
 </html>
