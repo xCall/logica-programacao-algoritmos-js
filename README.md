@@ -183,6 +183,9 @@ Existem também algumas tags que não necessitam de fechamento, que se abrem e s
 
 a. *Elaborar um programa para uma Vídeo Locadora, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.*
     [Link da resolução do desafio](./IntegracaoHTML-cap2/ex2_2.html)
+    
+b. *Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x.*
+    [Link da resolução do desafio](./IntegracaoHTML-cap2/ex2_3.html)
 
 
 
