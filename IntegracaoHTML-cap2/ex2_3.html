@@ -15,11 +15,39 @@
         }
 
         label,
-        input, p {
+        input,
+        p {
             margin-top: 10px;
         }
 
-        input
+        input[type='text']:focus,
+        input[type='number']:focus {
+            border: 0 none;
+            outline: 0;
+        }
+        input[type='text'],
+        input[type='number'] {
+            padding: 8px 10px 7px 10px;
+            border-bottom: 1px solid black!important;
+        }
+        input[type='button'],
+        input[type='text'],
+        input[type='number'] {
+            padding: 8px 10px 7px 10px;
+            border: 0 none;
+        }
+
+        input[type='number']::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        .click:focus {
+            border: 0 none;
+            background-color: #dcdcdcdc;
+            transition: 0.3s;
+            outline: 0;
+            box-shadow: 0 none;
+        }
     </style>
 </head>
 
@@ -29,8 +57,8 @@
         <label for="veiculoName">Veículo</label>
         <input type="text" name="veiculoName" id="inVeiculo">
         <label for="veiculoPreco">Preço R$</label>
-        <input type="text" name="veiculoName" id="inPreco">
-        <input type="button" value="Ver Promoção" id="btVerPromo">
+        <input type="number" name="veiculoName" id="inPreco">
+        <input class="click" type="button" value="Ver Promoção" id="btVerPromo">
 
         <p id="outVeiculo"></p>
         <p id="outEntrada"></p>
@@ -38,6 +66,8 @@
 
 
     </div>
+
+    <script src="./js/ex2_3.js"></script>
 </body>
 
 </html>
