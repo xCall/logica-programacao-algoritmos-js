@@ -1,5 +1,5 @@
 function Convert() {
-    var title = document.getElementyById('filmeTitle').value;
+    var title = document.getElementById('filmeTitle').value;
     var time = document.getElementById('time').value;
 
     var hour = time / 60;
@@ -10,5 +10,5 @@ function Convert() {
     
 }
 
-var showText = document.getElementById('convert');
-showText.addEventListener('click', Convert);
+var showText = document.getElementById('conversor');
+showText.addEventListener("click", Convert);
