@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        div.content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+        }
+
+        label,
+        input {
+            margin-bottom: 10px;
+        }
+
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        input[type="number"] {
+            border: 0 none;
+            border-bottom: 2px solid black!important;
+        }
+        input[type="number"]:focus {
+            border: 0 none;
+            box-shadow: 0 none;
+            outline: 0;
+            transition: 0.3s;
+            background-color: cornsilk;
+        }
+        input[type="button"] {
+            border: 0 none;
+            background-color: ivory;
+            color: black;
+            padding: 8px 15px 10px 15px;
+        }
+        #btCalcula:focus {
+            border: 0 none;
+            background-color: gainsboro;
+            box-shadow: 0 none;
+            outline: 0;
+            transition: 0.3s;
+        }
+    </style>
+
 </head>
+
 <body>
     <div class="content">
         <h1>Lan House JS</h1>
@@ -12,11 +59,12 @@
             <input type="number" name="valor" id="inValor">
         </label>
         <label for="tempo">Tempo de uso do Cliente:
-            <input type="number" name="tempo" id="inTempo">            
+            <input type="number" name="tempo" id="inTempo">
         </label>
         <input type="button" value="Calcular Valor a Pagar" id="btCalcular">
 
         <p id="outTotal"></p>
     </div>
 </body>
+
 </html>
