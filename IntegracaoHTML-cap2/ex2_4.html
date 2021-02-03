@@ -19,19 +19,36 @@
             margin-bottom: 8px;
         }
 
+        input[type="text"],
+        input[type="number"] {
+            border-left: 0 none;
+            border-top: 0 none;
+            border-right: 0 none;
+        }
+
+        input[type="number"]:focus {
+            border-left: 0 none;
+            border-top: 0 none;
+            border-right: 0 none;
+            outline: 0;
+            background-color: #dddddd;
+            transition: 0.1s;
+        }
+
         input[type="button"] {
             color: black;
             padding: 8px 15px 8px 15px;
-            background-color: darkgray;
+            background-color: #dddddd;
             border: 0 none;
             border-radius: 2px;
         }
 
-        .btCalcular:focus {
+        #btCalcular:focus {
             border: 0 none;
             outline: 0;
             box-shadow: 0 none;
-
+            background-color: #d7d7d779;
+            transition: 0.1s;
         }
 
         input[type="number"]::-webkit-inner-spin-button {
@@ -45,14 +62,18 @@
         <h1>Restaurante JS</h1>
         <label for="prato">
             Buffet por Quilo R$
-            <input type="text" name="prato" id="inQuilo">
+            <input type="number" name="prato" id="inQuilo">
         </label>
         <label for="consumo">
             Consumo do Cliente (gr)
             <input type="number" name="consumo" id="inConsumo">
         </label>
         <input type="button" id="btCalcular" value="Calcular Preço">
+
+        <p id="outValor"></p>
     </div>
+
+    <script src="./js/ex2_4.js"></script>
 </body>
 
 </html>
