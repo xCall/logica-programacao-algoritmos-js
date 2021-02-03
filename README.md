@@ -187,6 +187,9 @@ a. *Elaborar um programa para uma Vídeo Locadora, que leia o título e a duraç
 b. *Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x.*
     [Link da resolução do desafio](./IntegracaoHTML-cap2/ex2_3.html)
 
+c. *Elaborar um programa para um restaurante que leia o preço por kg e o consumo (em gramas) de um cliente. Exiba o valor a ser pago.*
+    [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_4.html)
+
 
 
 
