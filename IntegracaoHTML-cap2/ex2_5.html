@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 150px;
+        }
+
+        label,
+        input {
+            margin-bottom: 15px;
+        }
+
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        input[type="number"],
+        input[type="text"] {
+            border: 0 none;
+            border-bottom: 2px solid black !important;
+        }
+
+        input[type="number"]:focus,
+        input[type="text"]:focus {
+            border: 0 none;
+            outline: 0;
+            box-shadow: 0 none;
+            background-color: #dddddd;
+            transition: 0.2s;
+        }
+
+        #btPromo:focus {
+            background-color: #dddddd;
+            transition: 0.3s;
+            outline: 0;
+            box-shadow: 0 none;
+            border: 0 none;          
+        }
+        #btPromo {
+            background-color: #777777;
+            color: black;
+            border: 0 none;
+            padding: 8px 15px 8px 15px;
+            border-radius: 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Farmácia JS</h1>
+        <label for="medicamento">Medicamento:
+            <input type="text" name="medicamento" id="inDescricao">
+        </label>
+        <label for="preco">Preço R$:
+            <input type="number" name="preco" id="inPreco">
+        </label>
+        <input type="button" value="Mostrar Promoção" id="btPromo">
+
+        <p id="outTitle"></p>
+        <p id="outPromo"></p>
+    </div>
+
+    <script src="./js/ex2_3.html"></script>
+</body>
+
+</html>

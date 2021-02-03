@@ -190,6 +190,9 @@ b. *Elaborar um programa para uma revenda de veículos. O programa deve ler mode
 c. *Elaborar um programa para um restaurante que leia o preço por kg e o consumo (em gramas) de um cliente. Exiba o valor a ser pago.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_4.html)
 
+d. *Uma farmacia está com uma promoção - Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia descrição e preço de um medicamento. Informe o valor do produto na promoção.*
+    [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_5.html)
+
 
 
 
