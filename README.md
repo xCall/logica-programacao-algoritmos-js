@@ -193,7 +193,11 @@ c. *Elaborar um programa para um restaurante que leia o preço por kg e o consum
 d. *Uma farmacia está com uma promoção - Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia descrição e preço de um medicamento. Informe o valor do produto na promoção.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_5.html)
 
-d. *Elaborar um programa para uma lan house de um aeroporto - O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.*
+e. *Elaborar um programa para uma lan house de um aeroporto - O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.*
+    [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_6.html)
+
+
+f. *Um supermecado está com uma promoção - Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciando 50% de desconto (para um item) na compra de três unidades do produto. Elaborar um programa que leia a descrição e preço de um produto. Após, apresente as mensagens indicando a promoção.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_6.html)
 
 
