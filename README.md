@@ -15,6 +15,7 @@
     * [Desafios-cap2](#Desafios-cap2)
     * [Desafios-Finais-cap2](#Desafios-Finais-cap2)
 * [Condições](#Condições)
+    * [if... else](#if...else)
 
 * [Comandos](#Comandos)    
 
@@ -207,6 +208,8 @@ c. *Um supermecado está com uma promoção - Para aumentar suas vendas no setor
 
 ### Condições
 
+#### if...else
+
 Uma das representações tradicionalmente utilizadas para o ensino de Algoritmos e Lógica de Programação são os fluxogramas. Eles são úteis para facilitar o aprendizado.
 As setas no início e no final do fluxograma indicam que há comandos antes e após a estrutura condicional. Ou seja, uma condição é parte de um programa. Ela pode ser criada para controlar apenas oa saída de dados poderiam não pertencer a estrutura condicional.
 
@@ -242,6 +245,18 @@ if (codicao 1) {
 
 Quando houver apenas um comando que pertence à condição, o uso das chaves não é obrigatório. Contudo, para facilitar a compreensão, recomenda-se utilizar as *{}* em todas as ocorrências das estruturas condicionais de um programa.
 
+#### Operadores-relacionais
+
+Para definir as condições utilizadas nas estruturas condicionais, deve-se fazer uso dos operadores relacionais. Quando inseridos em um programa, cada comparação deve retornar *true* (verdadeiro) ou *false* (falso).
+
+|**Símbolo**|**Significado**|
+|-------|-----------|
+|*==*|Igual. Retorna verdadeiro caso os dados contenham o mesmo conteúdo.|
+|*!=*|Diferente. Retorna verdadeiro caso os dados contenham conteúdos diferentes.|
+|*>*|Maior. Pode ser utilizado para comparar números ou palavras. Na comparação de palavras, a classificação alfabética é avaliada.|
+|*<*|Menor. Também podem ser realizados comparações de número ou palavras.|
+|*>=*|Maior ou igual. Os símbolos devem estar nesta ordem (>=).|
+|*<=*|Menor ou igual. Tenha cuidado com a ordem dos símbolos (<=).|
 
 
 
