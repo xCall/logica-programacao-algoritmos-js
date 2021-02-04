@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 150px;
+        }
+
+        input,
+        label {
+            margin-bottom: 10px;
+        }
+
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        input[type="number"],
+        input[type="text"] {
+            border: 0 none;
+            border-bottom: 2px solid black!important;
+        }
+        input[type="number"]:focus, input[type="text"]:focus {
+            border: 0 none;
+            box-shadow: 0 none;
+            outline: 0;
+            background-color: lightgrey;
+            transition: 0.3s;
+        }
+        #btMedia {
+            border: 0 none;
+            border-radius: 2px;
+            background-color: lightgrey;
+            outline: 0px;
+            box-shadow: 0 none;
+            padding: 12px 18px 9px 18px;
+        }
+        #btMedia:focus {
+            border: 0 none;
+            border-radius: 2px;
+            background-color:lightyellow;
+            outline: 0px;
+            box-shadow: 0 none;
+            transition: 0.3s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Programa Situação do Aluno</h1>
+        <label for="nome">Nome do Aluno:
+            <input type="text" name="nome" id="inNome">
+        </label>
+        <label for="nota1">1° Nota:
+            <input type="number" name="nota1" id="inNota1">
+        </label>
+        <label for="nota2">2° Nota:
+            <input type="number" name="nota2" id="inNota2">
+        </label>
+        <input type="button" value="Exibir Média e Situação" id="btMedia">
+        <p id="outMedia"></p>
+        <p id="outSituacao"></p>
+    </div>
+
+    <script src="./js/ex3_1.js"></script>
+</body>
+
+</html>
