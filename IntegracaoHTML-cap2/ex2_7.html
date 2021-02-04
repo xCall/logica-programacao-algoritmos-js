@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 150px;
+        }
+        input, label {
+            margin-bottom: 10px;
+        }
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+        input[type="number"], input[type="text"] {
+            border: 0 none;
+            outline: 0;
+            box-shadow: 0 none;
+            border-bottom: 2px solid blue;
+        }
+        input[type="number"]:focus, input[type="text"]:focus {
+            background-color: #eeeeee;
+            transition: 0.5s;
+        }
+        input[type="button"] {
+            padding: 12px 15px 8px 15px;
+            border: 0 none;
+        }
+        #btVerPromo:focus {
+            box-shadow:0 none;
+            border: 0 none;
+            outline: 0;
+            transition: 0.5s;
+            background-color: honeydew;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Supermercado JS</h1>
+        <label for="produto">Produto:
+            <input type="text" id="inProduto">
+        </label>
+        <label for="preco">Preço R$
+            <input type="number" id="inPreco">
+        </label>
+        <input type="button" id="btVerPromo" value="Ver Promoção">
+        <p id="outProduto"></p>
+        <p id="outPreco"></p>
+    </div>
+</body>
+
+</html>
