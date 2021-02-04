@@ -16,6 +16,7 @@
     * [Desafios-Finais-cap2](#Desafios-Finais-cap2)
 * [Condições](#Condições)
     * [if... else](#if...else)
+    * [Operadores Condicionais](#Operadores-relacionais)
 
 * [Comandos](#Comandos)    
 
@@ -257,6 +258,9 @@ Para definir as condições utilizadas nas estruturas condicionais, deve-se faze
 |*<*|Menor. Também podem ser realizados comparações de número ou palavras.|
 |*>=*|Maior ou igual. Os símbolos devem estar nesta ordem (>=).|
 |*<=*|Menor ou igual. Tenha cuidado com a ordem dos símbolos (<=).|
+
+Existem ainda os símbolos de *===* (estritamente igual) e *!==* (estritamente diferente).
+Eles comparam também o tipo de dado em análise. Assim, `'5' === 5` retorna falso; e `'5' !== 5` retorna verdadeiro.
 
 
 
