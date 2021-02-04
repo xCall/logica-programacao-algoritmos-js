@@ -207,6 +207,7 @@ c. *Um supermecado está com uma promoção - Para aumentar suas vendas no setor
 
 ### Condições
 
+![Fluxograma](https://github.com/xCall/logica-programacao-algoritmos-js/blob/main/assets/Figura-18-Fluxograma-e-sintaxe-Instrucao-decisao-se-entao-senao.png)
 
 
 
