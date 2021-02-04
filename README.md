@@ -207,10 +207,40 @@ c. *Um supermecado está com uma promoção - Para aumentar suas vendas no setor
 
 ### Condições
 
+Uma das representações tradicionalmente utilizadas para o ensino de Algoritmos e Lógica de Programação são os fluxogramas. Eles são úteis para facilitar o aprendizado.
+As setas no início e no final do fluxograma indicam que há comandos antes e após a estrutura condicional. Ou seja, uma condição é parte de um programa. Ela pode ser criada para controlar apenas oa saída de dados poderiam não pertencer a estrutura condicional.
+
 ![Fluxograma](https://github.com/xCall/logica-programacao-algoritmos-js/blob/main/assets/Figura-18-Fluxograma-e-sintaxe-Instrucao-decisao-se-entao-senao.png)
 
+Para criar uma estrutura clássica, utilizamos os comandos if... else (se... senão).
+Eles possuem algumas variações. É possível utilizar apenas o if (para apresentar uma mensagem caso o cliente seja menor de idade, por exemplo). E também criar vários comandos else (para verificar a classificação etária de um aluno de natação, que poderia ser infantil, juvenil ou adulto).
 
+***Exemplos:***
 
+~~~Javascript
+//define uma condição simples
+if(condicao) {
+    comando;
+}
+
+//define uma condição de if... else
+if (condicao) {
+    comando v;
+} else {
+    comando x;
+}
+
+//define múltiplas condições
+if (codicao 1) {
+    comandos 1;
+} else if (condicao 2) {
+    comando 2
+} else {
+    comando 3;
+}
+~~~
+
+Quando houver apenas um comando que pertence à condição, o uso das chaves não é obrigatório. Contudo, para facilitar a compreensão, recomenda-se utilizar as *{}* em todas as ocorrências das estruturas condicionais de um programa.
 
 
 
