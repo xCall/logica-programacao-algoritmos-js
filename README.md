@@ -12,7 +12,10 @@
     * [Considerações Finais](#Considerações_Finais)
 * [Integração com HTML](#Integração_com_HTML)
     * [Estrutura básica de um documento HTML](#Estrutura_básica_de_um_documento_HTML)
-    * [Exercícios](#Exercícios)
+    * [Desafios-cap2](#Desafios-cap2)
+    * [Desafios-Finais-cap2](#Desafios-Finais-cap2)
+* [Condições](#Condições)
+
 * [Comandos](#Comandos)    
 
 <!--te-->
@@ -179,26 +182,30 @@ Existem também algumas tags que não necessitam de fechamento, que se abrem e s
 ----
 
 
-### Exercícios
+#### Desafios-cap2
 
-a. *Elaborar um programa para uma Vídeo Locadora, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.*
+1. *Elaborar um programa para uma Vídeo Locadora, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.*
     [Link da resolução do desafio](./IntegracaoHTML-cap2/ex2_2.html)
     
-b. *Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x.*
+2. *Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x.*
     [Link da resolução do desafio](./IntegracaoHTML-cap2/ex2_3.html)
 
-c. *Elaborar um programa para um restaurante que leia o preço por kg e o consumo (em gramas) de um cliente. Exiba o valor a ser pago.*
+3. *Elaborar um programa para um restaurante que leia o preço por kg e o consumo (em gramas) de um cliente. Exiba o valor a ser pago.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_4.html)
 
-d. *Uma farmacia está com uma promoção - Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia descrição e preço de um medicamento. Informe o valor do produto na promoção.*
+#### Desafios-Finais-cap2
+
+a. *Uma farmacia está com uma promoção - Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia descrição e preço de um medicamento. Informe o valor do produto na promoção.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_5.html)
 
-e. *Elaborar um programa para uma lan house de um aeroporto - O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.*
+b. *Elaborar um programa para uma lan house de um aeroporto - O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_6.html)
 
 
-f. *Um supermecado está com uma promoção - Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciando 50% de desconto (para um item) na compra de três unidades do produto. Elaborar um programa que leia a descrição e preço de um produto. Após, apresente as mensagens indicando a promoção.*
+c. *Um supermecado está com uma promoção - Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciando 50% de desconto (para um item) na compra de três unidades do produto. Elaborar um programa que leia a descrição e preço de um produto. Após, apresente as mensagens indicando a promoção.*
     [Link da resolução do desafio](./IntegracaoHTMl-cap2/ex2_6.html)
+
+### Condições
 
 
 
