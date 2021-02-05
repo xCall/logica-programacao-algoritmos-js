@@ -287,3 +287,92 @@ A tabela abaixo representa a tabela verdade da negação, representada pelo sím
 |-----|------|
 |V|F|
 |F|V|
+
+A negação é o mais simples dos operadores relacionais. Ela inverte o resultado (verdadeiro ou falso) de uma condição. Equivale ao sinal de diferente (!=) quando puder ser aplicada. Por exemplo, os testes a seguir realizam a mesma verificação.
+
+~~~JavaScript
+    if (!cor == "azul") {...}
+    if (cor != "azul") {...}
+~~~
+
+A conjunção, representada pelos símbolos *&&*, reflete a ideia da simultaneidade.
+A tabela abaixo expressa os valores resultantes para a proposiçoes p e q, usando a conjunção.
+
+|**p**|**q**|**p&&q**|
+|-----|-----|--------|
+|V|V|V|
+|V|F|F|
+|F|V|F|
+|F|F|F|
+
+Na conjução, como observado na tabela, a expressão só retorna verdadeiro se todas as comparações forem verdadeiras. Se um cliente quer um carro azul e de 2017, ele só será atendido se as duas condições forem satisfeitas. São exemplos de condições utilizando *&&*.
+
+~~~JavaScript
+    if (cor == "azul" && ano == 2017) {...}
+    if (cor == "cinza" && ano < 2017) {...}
+    if (ano >= 2012 && ano <= 2017) {...}
+    if (cor != "azul" && cor != "vermelho") {...}
+~~~
+
+Observe a sintaxe dos dois últimos exemplos. Quando uma mesma variável é utilizada na condição, ela deve ser repetida em cada comparação.
+Já a disjunção (||) reflete uma noção de que pelo menos uma das condições deve ser verdadeira, para que o resultado seja verdadeiro. A tabela abaixo representa a disjunção.
+
+|**p**|**q**|**p||q**|
+|-----|-----|--------|
+|V|V|V|
+|V|F|V|
+|F|V|V|
+|F|F|F|
+
+Nas condições, no mínimo uma das condições deve ser verdadeira. Agora, nosso cliente do exemplo quer um carro de cor azul ou de 2017. Qualquer carro em que uma dessas condições for verdadeira serva para esse cliente. Para criar a disjunção, utilize dois símbolos *||*.
+São exemplos de condições que utilizam o operador *||*.
+
+~~~JavaScript
+    if (cor == "azul" || ano == 2017) {...}
+    if (cor == "azul" || cor "branco") {...}
+    if ((cor == "azul"|| cor == "branco") && ano == 2017) {...}
+    if (cor == "azul" && (ano == 2016 || ano == 2017)) {...}
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
