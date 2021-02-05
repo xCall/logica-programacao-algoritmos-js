@@ -45,6 +45,7 @@ input[type="number"]:focus, input[type="text"]:focus {
     outline: 0;
     box-shadow: 0 none;
 }
+
 #btCalcular:focus, #btLimpar:focus {
     background-color: #dcdcdc;
     border: 0 none;
