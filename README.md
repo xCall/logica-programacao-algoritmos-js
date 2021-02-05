@@ -17,6 +17,7 @@
 * [Condições](#Condições)
     * [if... else](#if...else)
     * [Operadores Condicionais](#Operadores-relacionais)
+    * [Operadores Lógicos](#Operadores-Lógicos)
 
 * [Comandos](#Comandos)    
 
@@ -264,3 +265,25 @@ Eles comparam também o tipo de dado em análise. Assim, `'5' === 5` retorna fal
 
 
 
+#### Operadores-Lógicos
+
+|*Símbolo*|*Significado*|
+|---------|-------------|
+|*!*|Not. Indica negação. Inverte o resultado de uma comparação.|
+|*&&*|And. Indica conjunção. Retorna verdadeiro quando todas as forem verdadeiras.|
+|*||*|Or. Indica disjunção. Retorna verdadeiro se, no mínimo, uma das condições definidas for verdadeira.|
+
+Vamos comparar os operadores lógicos utilizando tabelas que indicam os valores que cada comparação pode assumir, a fim de relacionar esses operadores. Para isso, faremos uso de uma tabela verdade - que é uma tabela com todas as possíveis combinações dos valores lógicos (verdadeiro ou falso) das proposições e dos conectivos (operadores lógicos) utilizados. A seguir, temos a representação de duas variáveis, cor e ano, e um valor que ela pode assumir na execução do programa.
+Nas tabelas verdade, utilizamos uma letra, geralmente p e q, para representar uma proposição ("o carro é da cor azul", "o ano do carro é 2017").
+
+~~~JavaScript
+    var cor = "azul"; //(p)
+    var ano = 2017; // (q)
+~~~
+
+A tabela abaixo representa a tabela verdade da negação, representada pelo símbolo *!*.
+
+|**p**|**!p**|
+|-----|------|
+|V|F|
+|F|V|
