@@ -366,8 +366,8 @@ Na conjução, como observado na tabela, a expressão só retorna verdadeiro se 
 Observe a sintaxe dos dois últimos exemplos. Quando uma mesma variável é utilizada na condição, ela deve ser repetida em cada comparação.
 Já a disjunção (||) reflete uma noção de que pelo menos uma das condições deve ser verdadeira, para que o resultado seja verdadeiro. A tabela abaixo representa a disjunção.
 
-|**p**|**q**|`p||q`|
-|-----|-----|------|
+|**p**|**q**|**p//q**|
+|-----|-----|--------|
 |V|V|V|
 |V|F|V|
 |F|V|V|
