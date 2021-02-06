@@ -21,6 +21,7 @@
     * [Operadores Condicionais](#Operadores-relacionais)
     * [Operadores Lógicos](#Operadores-Lógicos)
     * [Desafios-cap3](#Desafios-cap3)
+    * [Desafios-Finais-cap3](#Desafios-Finais-cap3)
 
 
 * [Comandos](#Comandos)    
@@ -400,3 +401,8 @@ São exemplos de condições que utilizam o operador *||*.
 
 5. *Em um determinado momento do dia, apenas notas de 10, 50, 100 estão disponíveis em um terminal de caixa eletrônico. Elaborar um programa que leia um valor de saque de um cliente, verifique sua validade (ou seja, se pode ser pago com as notas disponíveis) e informe o número mínimo de notas de 100, 50, 10 necessárias para pagar esse saque.*
 [Link da resolução do desafio](./Condicoes-cap3/ex3_6.html)
+
+#### Desafios-Finais-cap3
+
+a. *Elaborar um programa que leia um número. Informe se ele é par ou ímpar.*
+[Link da resolução do desafio](./Condicoes-cap3/resp3_a.html)
