@@ -1,0 +1,54 @@
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    float: left;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#btExibir {
+    border: 1px solid gray;
+    border-radius: 150px;
+    background-color: lightslategrey;
+    padding: 10px;
+}
+
+#btExibir:focus {
+    outline: 0;
+    box-shadow: 0 none;
+    background-color: lightsteelblue;
+    transition: 0.3s;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 none;
+    border-bottom: 2px solid black!important;
+    transition: 0.3s;
+}
+#inValor:focus {
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0 none;
+    background-color: lightsteelblue;
+    transition: 0.3s;
+}
