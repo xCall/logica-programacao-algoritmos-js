@@ -16,8 +16,12 @@
     * [Desafios-Finais-cap2](#Desafios-Finais-cap2)
 * [Condições](#Condições)
     * [if... else](#if...else)
+    * [Switch... Case](#Switch...Case)
+    * [Operador Ternário](#Operador-Ternário)
     * [Operadores Condicionais](#Operadores-relacionais)
     * [Operadores Lógicos](#Operadores-Lógicos)
+    * [Desafios-cap3](#Desafios-cap3)
+
 
 * [Comandos](#Comandos)    
 
@@ -44,7 +48,7 @@ Um cuidado com relação à declaração das variáveis JavaScript: não se esqu
 ###### Declarando uma variável em JavaScript:
 
 ```var nome; var idade = 18; var soma = 10 + 10;```
-
+ 
 #### Const
 
 Diferente das variáveis, uma constante não pode ter o seu conteúdo alterado no decorrer do programa.
@@ -247,6 +251,51 @@ if (codicao 1) {
 
 Quando houver apenas um comando que pertence à condição, o uso das chaves não é obrigatório. Contudo, para facilitar a compreensão, recomenda-se utilizar as *{}* em todas as ocorrências das estruturas condicionais de um programa.
 
+#### Switch...Case
+
+Existe nas linguagens de programação uma outra estrutura de tomada de decisões, que permite criar condições, estamos falando do comando *switch...case*, muito útil para quando existir várias alternativas já definidas a partir do conteúdo de uma variável.
+
+~~~JavaScript
+    var bairro = prompt('Bairro de entrega: ');
+    var taxaEntrega;
+    
+    switch (bairro) {
+        case "Centro":
+            taxaEntrega = 5;
+        break;
+        case "Fragata":
+        case "Três Vendas":
+            taxaEntrega = 7;
+        break;
+        case "Laranjal":
+            taxaEntrega = 10;
+        break;
+        default:
+            taxaEntrega = 8;
+    }
+    alert(`Taxa R$${taxaEntrega.toFixed(2)}`);
+~~~
+
+O comando inicia com o *switch*, que usa como definição a variável que escolhe a condição a ser executada. Cada instrução deve contar um valor que é usado para comparação (seguida de ":"). Os comandos tem que ser finalizados pela palavra chave *break*, caso não encontrado no fim da condição fluxo tende a continuar a procurar mesmo que a condição seja satisfeita. No final encontramos o comando *default*, que serve para caso nenhuma das condições seja satisfeitas ele tem um valor padrão a ser executado e ele é finalizado.
+
+#### Operador-Ternário
+
+Existe uma outra maneira de se criar instruções if...else em JavaScript, que são conhecidas por operador ternário (três operandos) ou operador condicional. Ele consiste na realização de uma atribuição para uma variável com base na análise de uma condição.
+Observer o exemplo:
+
+```var categoria = idade >= 18 ? "Adulto" : "Juvenil;"```
+
+A condição usada no exemplo acima, deve ser inserida após o sinal de atribuição (=). O primeiro valor após a interrogação (?) é atribuido à variável caso a condição seja verdadeira. e o segundo valor, após o ":", caso a condição seja falsa. A instrução anterior equivale à seguinte estrutura if...else:
+
+~~~JavaScript
+    if (idade >= 18) {
+        var categoria = "Adulto";
+    } else {
+        var categoria = "Juvenil";
+    }
+~~~
+
+Por ser considerado muito simples, o operador ternário é bastante utilizado e está disponível na maioria das linguagens de programação da atualidade.
 #### Operadores-relacionais
 
 Para definir as condições utilizadas nas estruturas condicionais, deve-se fazer uso dos operadores relacionais. Quando inseridos em um programa, cada comparação deve retornar *true* (verdadeiro) ou *false* (falso).
@@ -335,23 +384,7 @@ São exemplos de condições que utilizam o operador *||*.
 ~~~
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Desafios-cap3
 
 
 
