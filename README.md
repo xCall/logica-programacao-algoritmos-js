@@ -243,7 +243,7 @@ if (condicao) {
 if (codicao 1) {
     comandos 1;
 } else if (condicao 2) {
-    comando 2
+    comando 2;
 } else {
     comando 3;
 }
@@ -386,8 +386,12 @@ São exemplos de condições que utilizam o operador *||*.
 
 #### Desafios-cap3
 
-
-
+1. *Elaborar um programa para uma escola que receba de um aluno duas notas e calcule a média, retorne para o aluno se ele foi reprovado ou aprovado*
+    [Link da resolução do desafio](./Condicoes-cap3/ex3_1.html)
+2. *Elaborar um programa para que receba os dados do usuário e retorne se ele está acima do peso ou dentro do peso para o seu biotipo a partir dos dados selecionados no fórmulario.*
+    [Link da resolução do desafio](./Condicoes-cap3/ex3_2.html)
+3. *Sabendo que o fuso horário da França em relação ao Brasil é de + 5 horas (no horário de verão na França), elaborar um programa que leia a hora no Brasil e informe a hora na França.*
+    [Link da resolução do desafio](./Condicoes-cap3/ex3_4.html)
 
 
 

@@ -1,0 +1,29 @@
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-left: 150px;
+    margin-right: 0;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input[type='button'] {
+    border: 1 solid none;
+    padding: 15px;
+    border-radius: 3px;
+}
