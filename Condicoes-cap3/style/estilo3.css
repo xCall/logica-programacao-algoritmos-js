@@ -1,0 +1,43 @@
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 150px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input[type="button"] {
+    border: 0 none;
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+#btRaiz:focus {
+    border: 0 none;
+    outline: 0;
+    box-shadow: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
