@@ -412,5 +412,6 @@ b. *Elaborar um programa que leia a velocidade permitida em uma estrada e a velo
 
 c. *Elaborar um programa para simular um parquímetro, o qual leia o valor de moedas depositado em um terminal de estacionamento rotativo. O programa deve informar o tempo de permanência do veículo no local e o troco (se existir).*
 [Link da resolução do desafio](./Condicoes-cap3/resp3_c.html)
+
 d. *Elaborar um programa que leia três lados e verifique se eles podem ou não formar um triangulo. Para formar um triângulo, um dos lados não pode ser maior que a soma dos outros dois. Caso possam formar um triângulo, exiba também qual o tipo do triângulo: Equilátero (3 lados iguais), Isósceles (2 lados iguals) e Escaleno (3 lados diferentes).*
 [Link da resolução do desafio](./Condicoes-cap3/resp3_d.html)
