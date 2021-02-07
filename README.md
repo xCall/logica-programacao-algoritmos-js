@@ -406,3 +406,6 @@ São exemplos de condições que utilizam o operador *||*.
 
 a. *Elaborar um programa que leia um número. Informe se ele é par ou ímpar.*
 [Link da resolução do desafio](./Condicoes-cap3/resp3_a.html)
+
+b. *Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual à permitida, exiba "Sem Multa". Se a velocidade for de até 20% maior que a permitida, exiba "Multa leve". E, se a velocidade for superior a 20% da velocidade permitida, exiba "Multa Grave".*
+[Link da resolução do desafio](./Condicoes-cap3/resp3_b.html)
