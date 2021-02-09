@@ -6,9 +6,9 @@ function Deposito() {
     var styled = '2px solid red';
     var styled2 = '2px solid black'
 
-    var valor = Number(inValor);
+    var valor = Number(inValor.value);
 
-    if (valor == '' || valor <= 0 || isNaN(valor)) {
+    if (valor == '' || isNaN(valor)) {
         outTime.textContent = `Para continuar informe um valor válido.`;
         inValor.focus()
         inValor.style.borderBottom = styled;
@@ -50,3 +50,4 @@ function Deposito() {
 }
 
 var btConfirmar = document.getElementById('btConfirmar').addEventListener('click', Deposito);
+
