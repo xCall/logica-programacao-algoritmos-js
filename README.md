@@ -22,6 +22,8 @@
     * [Operadores Lógicos](#Operadores-Lógicos)
     * [Desafios-cap3](#Desafios-cap3)
     * [Desafios-Finais-cap3](#Desafios-Finais-cap3)
+* [Repetições](#Repetições)
+    * [Laço For](#Laço-For)
 
 
 * [Comandos](#Comandos)    
@@ -415,3 +417,28 @@ c. *Elaborar um programa para simular um parquímetro, o qual leia o valor de mo
 
 d. *Elaborar um programa que leia três lados e verifique se eles podem ou não formar um triangulo. Para formar um triângulo, um dos lados não pode ser maior que a soma dos outros dois. Caso possam formar um triângulo, exiba também qual o tipo do triângulo: Equilátero (3 lados iguais), Isósceles (2 lados iguals) e Escaleno (3 lados diferentes).*
 [Link da resolução do desafio](./Condicoes-cap3/resp3_d.html)
+
+### Repetições
+    
+    Para a construção de um programa, é necessario o uso de estruturas de repetição, a linguagem JavaScript dispõem do comando **for, while e do.. while**. Pequenas particularidades fazem com que o uso de cada um deles seja mais adequado para uma ou outra situação.
+    
+#### Laço-For
+
+Por definição, o comando *for* é composto de três instruções, que são elas: 
+    * O valor inicial da variável de controle.
+    * A condição que determina se a repetição deve ou não continuar.
+    * O incremento ou decremento da variável de controle.
+
+~~~JavaScript
+    for(var i = 1; i <= 10; i++) {}
+~~~
+`var i = 1` 
+    * Declaração e atribuição do valor inicial para a variável de controle.
+`i <= 10`
+    * Condição realizada no início e após cada incremento da variável. Se verdadeira, continua.
+`i++`
+    * Incremento/decremento da variável de controle, realizada após a primeira execução.
+`{}`
+    * Entre as chaves {} devem ser inseridos os comandos que serão executados repetidas vezes.
+
+Quando o comando *for* realiza uma volta completa, o valor da variável é incrementada e essa
