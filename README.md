@@ -441,4 +441,4 @@ Por definição, o comando *for* é composto de três instruções, que são ela
 `{}`
     * Entre as chaves {} devem ser inseridos os comandos que serão executados repetidas vezes.
 
-Quando o comando *for* realiza uma volta completa, o valor da variável é incrementada e essa
+Quando o comando *for* realiza uma volta completa, o valor da variável é incrementada e essa sequência de passos é repetida até o final. Os loops do *for* contêm, na sua variável *i*, o valor da volta sendo realizada.
