@@ -420,7 +420,7 @@ d. *Elaborar um programa que leia três lados e verifique se eles podem ou não 
 
 ### Repetições
     
-    Para a construção de um programa, é necessario o uso de estruturas de repetição, a linguagem JavaScript dispõem do comando **for, while e do.. while**. Pequenas particularidades fazem com que o uso de cada um deles seja mais adequado para uma ou outra situação.
+Para a construção de um programa, é necessario o uso de estruturas de repetição, a linguagem JavaScript dispõem do comando **for, while e do.. while**. Pequenas particularidades fazem com que o uso de cada um deles seja mais adequado para uma ou outra situação.
     
 #### Laço-For
 
