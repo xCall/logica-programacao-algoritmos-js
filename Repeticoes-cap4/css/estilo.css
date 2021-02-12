@@ -1,10 +1,13 @@
-img.normal {
+.normal {
     float: left;
     height: 300px;
-    width: 30px;
+    width: 300px;
+    margin-left: 150px;
+    margin-right: -250px;
+    margin-top: 10px;
 }
 
-img.alta {
+.alta {
     float: left;
     height: 420px;
     width: 300px;
@@ -26,7 +29,7 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    margin-top: 150px;
 }
 
 label, input {
@@ -45,7 +48,7 @@ input[type="number"] {
     background-color: lavenderblush;
 }
 
-#btMostrar {
+input[type="button"] {
     border: 0 none;
     outline: 0;
     box-shadow: 0;
